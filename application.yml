@@ -7,14 +7,3 @@ eureka:
   instance:
     hostname: localhost
 
-microservice:
-  movie-service:
-    endpoints:
-      endpoint:
-        uri: http://app-movie-service/api/movies/
-  rating-service:
-    endpoints:
-      endpoint:
-        uri: http://app-rating-service/api/ratings/
-  
-    
